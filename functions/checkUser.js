@@ -17,10 +17,19 @@ function auth(data){
     }
 
 }
+// const data = {
+//     email:"abc@gmail.com",
+//     password:"1234"
+// }
+
+let emailu = prompt("Enter email")
+let passu = prompt("Enter password")
+
 const data = {
-    email:"abc@gmail.com",
-    password:"1234"
+    email:emailu,
+    password: passu
 }
+
 
 auth(data)
 
